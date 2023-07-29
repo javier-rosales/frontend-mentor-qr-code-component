@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    font-family: "Outfit", sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
