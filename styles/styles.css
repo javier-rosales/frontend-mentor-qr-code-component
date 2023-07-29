@@ -4,6 +4,34 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #d6e2f0;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #ffffff;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.card__image {
+    width: 100%;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
